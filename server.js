@@ -27,5 +27,5 @@ const employeeRouter = require("./routes/employeeRoutes");
 app.use("/employee",employeeRouter);
 
 app.listen(PORT, () => {
-    console.log(`server is up and running on porT: ${PORT}`);
+    console.log(`server is up and running on port: ${PORT}`);
 })
